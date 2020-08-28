@@ -25,7 +25,7 @@ import nltk
 from nltk.corpus import stopwords
 
 
-pdf_dir = "\\PDF_file" #enter the path where pdf profile are kept
+pdf_dir = "Word_tokenizer\\PDF_file" #enter the path where pdf profile are kept
 
 def extract_text_from_pdf(pdf_path):
     resource_manager = PDFResourceManager()
